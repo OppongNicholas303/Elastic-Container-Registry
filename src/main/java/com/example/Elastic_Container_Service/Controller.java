@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("appName", "My First Elastic Beanstalk Deploy");
-        model.addAttribute("heroTitle", "This app is deployed by elastic beanstalk");
-        model.addAttribute("heroDescription", "AWS Lab Week 3 Work");
+        model.addAttribute("appName", "My First Elastic Container Service Deploy");
+        model.addAttribute("heroTitle", "This app is deployed by Fargate ");
+        model.addAttribute("heroDescription", "AWS Lab Week 4 Work");
         model.addAttribute("isAuthenticated", false); // Set based on authentication status
         model.addAttribute("companyName", "Amalitec");
         return "index";
