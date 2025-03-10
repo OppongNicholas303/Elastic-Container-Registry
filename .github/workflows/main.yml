@@ -38,4 +38,4 @@ jobs:
         aws ecs list-clusters
         
         # Try to update the service with the correct cluster name
-        aws ecs update-service --cluster week4LabCluster-nicholas --service week4LabService --force-new-deployment
+        aws ecs update-service --cluster week4LabCruster-nicholas --service week4LabService --force-new-deployment
